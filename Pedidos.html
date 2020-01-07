@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+      
+
+
+    
+    
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>Dados do clinte</title>
+
+    <!-- Icons font CSS-->
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+  
+    <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+        <div class="wrapper wrapper--w790">
+            <div class="card card-5">
+                <div class="card-heading">
+                    <h2 class="title">Informações</h2>
+                </div>
+                <div class="card-body">
+                    <form method="POST" action="cadastrar.php" >
+                        <div class="form-row m-b-55">
+                            <div class="name">Nome</div>
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="NOME" required="" placeholder="Nome">
+                                            <label class="label--desc">Nome</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="sobrenome"required="" placeholder="Sobrenome">
+                                            <label class="label--desc">Sobrenome</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Endereço</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="endereco"required="" placeholder="Endereço">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Email</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="email" name="email"  placeholder="Usuario@exemplo.com">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="name">Telefone</div>
+                            <div class="value">
+                                    <div class="col-9">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="telefone" required="" placeholder="(xx) xxxx-xxxx">
+                                            <label class="label--desc">Número</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        
+                                        <div class="select-dropdown">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dados da maquina -->
+    <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+        <div class="wrapper wrapper--w790">
+            <div class="card card-5">
+                <div class="card-heading">
+                    <h2 class="title">Serviços</h2>
+                </div>
+                <div class="card-body">
+                    
+                        <div class="form-row m-b-55">
+                            
+                            <div class="value">
+                                <div class="row row-refine">
+                                    <div class="col-3">
+                                        <div class="input-group-desc">
+                                           <div class="name">Sistema Operacional</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="input-group-desc">
+                                            <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <input type="text" name="SO" class="carlinveado" required="" placeholder=" SO ou N ">
+                                        
+                                    </div>
+                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      <div class="form-row m-b-55">
+                            
+                            <div class="value">
+                                <div class="row row-refine">
+                                    <div class="col-3">
+                                        <div class="input-group-desc">
+                                           <div class="name">Limpeza</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="input-group-desc">
+                                            <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <input type="text" name="limpeza" class="carlinveado" required="" placeholder="S ou N ">
+                                        
+                                    </div>
+                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            
+                            <div class="value">
+                                <div class="row row-refine">
+                                    <div class="col-3">
+                                        <div class="input-group-desc">
+                                           <div class="name">Instalação de Software</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="input-group-desc">
+                                            <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <input type="text" name="instalacaoSoft" class="carlinveado" required="" placeholder="Software ou N">
+                                            <br>
+                                        <input type="number" name="qtd" class="carlinveado" required placeholder="Nº de programas">
+                                    </div>
+                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="form-row m-b-55">
+                            
+                            <div class="value">
+                                <div class="row row-refine">
+                                    <div class="col-3">
+                                        <div class="input-group-desc">
+                                           <div class="name">Instalação e Limpeza</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="input-group-desc">
+                                            <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <input type="text" name="instalacaoSoftLimp" class="carlinveado" required="" placeholder="S ou N">
+                                        
+                                    </div>
+                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row m-b-55">
+                            
+                            <div class="value">
+                                <div class="row row-refine">
+                                    <div class="col-3">
+                                        <div class="input-group-desc">
+                                           <div class="name">Sobre o Computador</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="input-group-desc">
+                                            <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <input type="text" name="sobrePc" class="carlinveado" required="" id="recibo"  >
+                                        
+                                    </div>
+                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <br></br>
+
+    
+                        <div>
+                            <a href="cadastrar.php"><button class="btn btn--radius-2 btn--red" type="submit">Gera recibo e registrar pedido</button></a>
+
+                        </div>
+                        </form>
+                        
+                    
+                </div>
+            </div>
+            <div>
+                             <a href="dadosClientes.php"><button class="btn btn--radius-2 btn--red">Pedidos Prontos</button></a>
+                        </div>
+        </div>
+    </div>
+    <!-- Jquery JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+
+    <!-- Main JS-->
+
+    <script src="js/global.js"></script>
+
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+<!-- end document-->
